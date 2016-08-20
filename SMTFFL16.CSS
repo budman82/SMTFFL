@@ -1,0 +1,157 @@
+/*************** OPTIONAL ***************/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,800);
+
+body, #hsubmenu a, #homepagetabsdiv #homepagetabs li {
+   font-family: 'Oswald',Helvetica,Arial,sans-serif; }
+
+.brandlogo {display: none; }
+.leaguelogo {margin-top: px; margin-bottom: px; }
+.leaguelogo, .standingslogo, .franchiseicon {max-width: 100%; }
+
+div#menu0 {margin-left: px; }
+.mmenucontainer {font-size: 120% !important; }
+
+.mmenucontainer, #homepagetabs, input[type="button"], input[type="submit"], input[type="reset"]
+{text-shadow: 0 2px 0 #000000;}
+
+.pagetitle {display:none;}
+
+/*************** NEW COLOR KEY ***************
+Main (2015 Dark Grey) => Dark Blue #004a8f
+Accent (2015 Red) => Light Blue #80baf1
+Warning (2015 Red) => Flat Red #d8383a
+*/
+
+
+/************************* BACKGROUNDS *************************/
+/*** BODY HEADER IMAGE 9 x 34 (height = 30 main, 4 accent) ***/
+
+body {
+ background: #eee url(https://googledrive.com/host/0B-hXn8zMMjJFdmtmYm1IdDlEM0E/Background.jpg) repeat-x scroll 0% 0%; 
+ }
+.pageheader {
+    background: transparent url(https://googledrive.com/host/0B-hXn8zMMjJFanF4NkhFX0lXOFE) no-repeat bottom left;
+   min-height: 288px}
+.pagebody {
+    background: #fff; 
+    max-width:1300px}
+.pagefooter {
+    background: #004a8f; }
+.oddtablerow, .oddtablerow td {
+    background: transparent; }
+.eventablerow, .eventablerow td {
+    background: #f3f3f3; }
+
+#vsubmenu ul li {
+    background: #80baf1; color: #fff; text-shadow: 0 2px 0 #000;}
+#hsubmenu ul li {
+    background: #fff; }
+#hsubmenu ul li:hover {
+    background: #eee; }
+
+
+/*************** LINKS ***************/
+
+.oddtablerow a:link,.oddtablerow a:active,.oddtablerow a:visited,.oddtablerow,
+.eventablerow a:link,.eventablerow a:active,.eventablerow a:visited,.eventablerow,
+a:link, a:active, a:visited
+{color: #004a8f; }
+
+a:hover, .oddtablerow a:hover,.eventablerow a:hover
+{color:#80baf1; }
+
+.mainmenuoff, a.mainmenuoff:link, a.mainmenuoff:visited, a.mainmenuoff:hover, a.mainmenuoff:active, a.mainmenucurrent:link, a.mainmenucurrent:visited, a.mainmenucurrent:hover, a.mainmenucurrent:active
+{color: #ffffff;}
+
+.mainmenucurrent,
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active {
+    color: #ffffff; }
+
+#vsubmenu ul li a {text-shadow: none; }
+#vsubmenu ul li a:hover {background: #eee; }
+
+#vsubmenu ul li a:hover, #hsubmenu ul a, #hsubmenu ul li a:hover
+{color: #004a8f; }
+
+
+/*************** WARNING/STANDOUT COLOR ***************/
+
+.pageheader a:link, .pageheader a:active, .pageheader a:visited,
+.homepagemessage span.warning, .homepagemessage h4.warning,
+.warning, th.warning, .oddtablerow td.status span.freeagent, .eventablerow td.status span.freeagent,
+h2, h3, h3 a:hover,
+#league_chat b,
+#body_board_show th.messageboardbar, #body_board_show th.messageboardbar a,
+.playoffbracket td b,
+#commissioner_setup th
+{color: #d8383a; }
+
+
+/*************** TEXT AREAS & MENU BARS ***************/
+
+.pageheader,
+.pageheader a:link:hover, .pageheader a:active:hover, .pageheader a:visited:hover,
+.pagetitle h1,
+th a:hover,
+h3 a:link, h3 a:visited, h3 a:active,
+#body_board_show th.messageboardbar a:hover,
+#monthly_calendar th,
+{color: #004a8f; }
+
+#homepagetabsdiv #homepagetabs li
+{color: #80baf1; }
+
+#homepagetabs, #body_live_scoring_summary h2,#body_live_scoring h2, li#tab0:after
+{background: #004a8f; }
+
+#homepagetabsdiv #homepagetabs li.currenttab, li#tab0.currenttab:after
+{background: #80baf1; }
+
+.mainmenuoff, a.mainmenuoff:link, a.mainmenuoff:visited, a.mainmenuoff:hover, a.mainmenuoff:active, a.mainmenucurrent:link, a.mainmenucurrent:visited, a.mainmenucurrent:hover, a.mainmenucurrent:active,
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active
+{background: #004a8f; }
+
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active
+{background: #80baf1; }
+
+
+/*************** INPUT BUTTONS ***************/
+
+input[type="button"], input[type="submit"], input[type="reset"]
+{border: 1px solid #000000; background: #004a8f; }
+
+input[type="button"]:hover, input[type="submit"]:hover
+{border: 1px solid #000000; background: #222; }
+
+
+/*************** BORDERS ***************/
+
+.eventablerow td, .oddtablerow td
+{border: 1px solid #ccc; }
+
+.newposition td,.newposition th
+{border-top: 2px solid #004a8f; }
+
+.pagefooter > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1),
+#homepagetabs,
+caption, .homepagemodule caption, .homepagecolumn .homepagemodule caption
+{border-bottom: 5px solid #80baf1;}
+
+#homepagetabsdiv #homepagetabs li.currenttab:first-of-type
+{border-left: 1px solid #80baf1;}
+
+#homepagetabsdiv #homepagetabs li
+{border-left: 1px solid #004a8f; }
+
+#homepagetabsdiv #homepagetabs li
+{border-right: 1px solid #004a8f; }
+
+#body_live_scoring_summary h2,#body_live_scoring h2
+{border: 3px solid #004a8f; }
+
+.playoffbracket td.topteam, .playoffbracket td.bottomteam
+{border-bottom: 2px solid #004a8f; }
+
+.playoffbracket td.bracket, .playoffbracket td.bottomteam
+{border-right: 2px solid #004a8f; }
