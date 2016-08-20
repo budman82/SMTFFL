@@ -28,14 +28,15 @@ Warning (2015 Red) => Flat Red #d8383a
 /*** BODY HEADER IMAGE 9 x 34 (height = 30 main, 4 accent) ***/
 
 body {
- background: #eee url(http://i709.photobucket.com/albums/ww96/Ramsfan82/Background_zps4qxegyfq.jpg) repeat-x scroll 0% 0%; 
- min-height: 300px; 
+ <--background: #eee url(http://i709.photobucket.com/albums/ww96/Ramsfan82/Background_zps4qxegyfq.jpg) repeat-x scroll 0% 0%; 
+ min-height: 300px-->
+ background: #8e94c6; 
  }
 .pageheader {
     background: transparent url(http://i709.photobucket.com/albums/ww96/Ramsfan82/SMT_Header_zpsh5r3vjbz.png) no-repeat bottom left;
    min-height: 300px}
 .pagebody {
-    background: #8e94c6; 
+    background: #fff; 
     max-width:1300px}
 .pagefooter {
     background: #004a8f; }
