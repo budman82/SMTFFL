@@ -1,0 +1,29 @@
+/*  MFL RESPONSIVE MENU
+========================= */
+.myfantasyleague_menu {border-bottom-color:#0b4ca6;}
+.myfantasyleague_menu,.myfantasyleague_menu ul,.myfantasyleague_menu ul li ul{background:#002043;}
+.myfantasyleague_menu ul ul li{background:#002043;}
+.myfantasyleague_menu > ul > li.has-sub > a:after{border-top-color:#fff;}
+.myfantasyleague_menu ul ul > li.has-sub > a:after{border-left-color:#fff;}
+.myfantasyleague_menu > ul > li.has-sub:hover > a:after{border-top-color:#fff;}
+.myfantasyleague_menu ul ul > li.has-sub:hover > a:after{border-left-color:#fff;}
+.myfantasyleague_menu ul li a,.myfantasyleague_menu ul li:hover ul li a,.myfantasyleague_menu ul li ul li:hover ul li a{color:#fff;}
+.myfantasyleague_menu ul li:hover a,.myfantasyleague_menu ul li ul li:hover a,.myfantasyleague_menu ul li ul li ul li:hover a{color:#fff;}
+.myfantasyleague_menu li:hover > a {background-color:#0b4ca6;background-image:none;box-shadow:none;}
+.myfantasyleague_menu ul li ul li:hover > a {background-color:#0b4ca6;}
+.myfantasyleague_menu li.player-search input[type="text"]{color:#001326;}
+.myfantasyleague_menu ul li ul {border-top-color:#0b4ca6;}
+.myfantasyleague_menu ul ul li a,.myfantasyleague_menu ul ul li.has-sub a {border-color:#0b4ca6;}
+.myfantasyleague_menu ul ul li.has-sub li:first-of-type {border-top-color:#0b4ca6;}
+
+
+/*   MFL RESPONSIVE TABS
+=========================== */
+.myfantasyleague_tabmenu ul#homepagetabs{border-bottom-color:#0b4ca6;}
+.myfantasyleague_tabmenu{background:#002043;}
+.myfantasyleague_tabmenu #homepagetabs li {border-right-color:#001326;}
+.myfantasyleague_tabmenu #homepagetabs li a{color:#fff;border-right-color:rgba(255,255,255,.05);}
+.myfantasyleague_tabmenu #homepagetabs li:hover {background-color:#0b4ca6;}
+.myfantasyleague_tabmenu #homepagetabs li:hover a{color:#fff;}
+.myfantasyleague_tabmenu #homepagetabs li.currenttab a {color:#fff;}
+.myfantasyleague_tabmenu #homepagetabs li.currenttab,.myfantasyleague_tabmenu #homepagetabs li.currenttab:hover {background:#0b4ca6;background-image:none;box-shadow:none;}
