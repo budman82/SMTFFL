@@ -2,7 +2,7 @@
 ========================= */
 .myfantasyleague_menu {border-bottom-color:#0b4ca6;}
 .myfantasyleague_menu,.myfantasyleague_menu ul,.myfantasyleague_menu ul li ul{background:#fff;}
-.myfantasyleague_menu ul ul li{background:#002043;}
+.myfantasyleague_menu ul ul li{background:#fff;}
 .myfantasyleague_menu > ul > li.has-sub > a:after{border-top-color:#fff;}
 .myfantasyleague_menu ul ul > li.has-sub > a:after{border-left-color:#fff;}
 .myfantasyleague_menu > ul > li.has-sub:hover > a:after{border-top-color:#fff;}
