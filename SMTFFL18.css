@@ -23,7 +23,7 @@
 .myfantasyleague_tabmenu{background:#002043;}
 .myfantasyleague_tabmenu #homepagetabs li {border-right-color:#001326;}
 .myfantasyleague_tabmenu #homepagetabs li a{color:#fff;border-right-color:rgba(255,255,255,.05);}
-.myfantasyleague_tabmenu #homepagetabs li:hover {background-color:#0b4ca6;}
+.myfantasyleague_tabmenu #homepagetabs li:hover {background-color:#002043;}
 .myfantasyleague_tabmenu #homepagetabs li:hover a{color:#fff;}
 .myfantasyleague_tabmenu #homepagetabs li.currenttab a {color:#fff;}
 .myfantasyleague_tabmenu #homepagetabs li.currenttab,.myfantasyleague_tabmenu #homepagetabs li.currenttab:hover {background:#0b4ca6;background-image:none;box-shadow:none;}
