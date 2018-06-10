@@ -31,6 +31,8 @@
 /*************** OPTIONAL ***************/
 .brandlogo {display: none; }
 
+.pageheader::before {background:none;}
+
 .pageheader {
 /* background: transparent url(http://i709.photobucket.com/albums/ww96/Ramsfan82/SMT_Header_15_zpsdmdpelvm.png) no-repeat bottom left;
    min-height: 300px} */
