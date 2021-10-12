@@ -69,7 +69,7 @@ background: transparent url(https://raw.githubusercontent.com/budman82/SMTFFL/bu
 #body_ajax_ls #ls_setting_drop,
 #body_ajax_ls #myNavigationHolder,
 #body_ajax_ls table.report+div.mobile-wrap {
-  visibility: visible
+  visibility: visible;
 }
 
 #body_ajax_ls .ls-boxscore {
