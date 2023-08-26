@@ -1,0 +1,1098 @@
+
+
+/*  MFL RESPONSIVE MENU
+========================= */
+.myfantasyleague_menu {border-bottom-color:#0b4ca6;}
+.myfantasyleague_menu,.myfantasyleague_menu ul,.myfantasyleague_menu ul li ul{background:#002043;}
+.myfantasyleague_menu ul ul li{background:#002043;}
+.myfantasyleague_menu > ul > li.has-sub > a:after{border-top-color:#fff;}
+.myfantasyleague_menu ul ul > li.has-sub > a:after{border-left-color:#fff;}
+.myfantasyleague_menu > ul > li.has-sub:hover > a:after{border-top-color:#fff;}
+.myfantasyleague_menu ul ul > li.has-sub:hover > a:after{border-left-color:#fff;}
+.myfantasyleague_menu ul li a,.myfantasyleague_menu ul li:hover ul li a,.myfantasyleague_menu ul li ul li:hover ul li a{color:#fff;}
+.myfantasyleague_menu ul li:hover a,.myfantasyleague_menu ul li ul li:hover a,.myfantasyleague_menu ul li ul li ul li:hover a{color:#fff;}
+.myfantasyleague_menu li:hover > a {background-color:#0b4ca6;background-image:none;box-shadow:none;}
+.myfantasyleague_menu ul li ul li:hover > a {background-color:#0b4ca6;}
+.myfantasyleague_menu li.player-search input[type="text"]{color:#001326;}
+.myfantasyleague_menu ul li ul {border-top-color:#0b4ca6;}
+.myfantasyleague_menu ul ul li a,.myfantasyleague_menu ul ul li.has-sub a {border-color:#0b4ca6;}
+.myfantasyleague_menu ul ul li.has-sub li:first-of-type {border-top-color:#0b4ca6;}
+
+
+/*   MFL RESPONSIVE TABS
+=========================== */
+.myfantasyleague_tabmenu ul#homepagetabs{border-bottom-color:#0b4ca6;}
+.myfantasyleague_tabmenu{background:#002043;}
+.myfantasyleague_tabmenu #homepagetabs li {border-right-color:#001326;}
+.myfantasyleague_tabmenu #homepagetabs li a{color:#fff;border-right-color:rgba(255,255,255,.05);}
+.myfantasyleague_tabmenu #homepagetabs li:hover {background-color:#002043;}
+.myfantasyleague_tabmenu #homepagetabs li:hover a{color:#fff;}
+.myfantasyleague_tabmenu #homepagetabs li.currenttab a {color:#fff;}
+.myfantasyleague_tabmenu #homepagetabs li.currenttab,.myfantasyleague_tabmenu #homepagetabs li.currenttab:hover {background:#0b4ca6;background-image:none;box-shadow:none;}
+
+/*************** OPTIONAL ***************/
+.brandlogo {display: none; } 
+
+.pageheader::before {background:none;}
+
+.pageheader {
+/* background: transparent url(http://i709.photobucket.com/albums/ww96/Ramsfan82/SMT_Header_15_zpsdmdpelvm.png) no-repeat bottom left;
+   min-height: 300px} */
+
+background: transparent url(https://raw.githubusercontent.com/budman82/SMTFFL/budman82-images/SMT_Header22.png) no-repeat bottom center;
+   min-height: 300px;} 
+
+.pagetitle {display:none;} 
+
+/***************************************/
+
+
+/* MFL SCORING FORMAT */
+
+
+/***************************************/
+
+#body_ajax_ls #ls_setting_drop,
+#body_ajax_ls .ls-outer-table,
+#body_ajax_ls #ls_ticker_tab_id,
+#body_ajax_ls #ls_mfl_notes {
+  font-family: 'Roboto Condensed', sans-serif
+}
+
+#body_ajax_ls #container-wrap,
+#body_ajax_ls table[style="margin-top:4px"],
+#body_ajax_ls table#ls_ticker_tab_id,
+#body_ajax_ls table#ls_ticker_tab_id+p,
+#body_ajax_ls table#ls_ticker_tab_id+p+p,
+#body_ajax_ls p:last-of-type,
+#body_ajax_ls #ls_setting_drop,
+#body_ajax_ls #myNavigationHolder,
+#body_ajax_ls table.report+div.mobile-wrap {
+  visibility: visible;
+}
+
+#body_ajax_ls .ls-boxscore {
+  white-space: nowrap
+}
+
+#LS_TopTableHolder .LS_MainScoreboard {
+  border-spacing: 2px!important
+}
+
+#LS_CenterTop {
+  position: relative;
+  font-weight: 700;
+  font-size: 36px
+}
+
+#LS_CenterTop span.hometeam {
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  font-size: 11px;
+  font-weight: normal
+}
+
+#LS_CenterTop span.awayteam {
+  position: absolute;
+  left: 1%;
+  bottom: 1%;
+  font-size: 11px;
+  font-weight: normal
+}
+
+#LS_CenterTop .awayteam:before {
+  content: "\f0d9";
+  font-family: FontAwesome;
+  padding-right: 3px;
+}
+
+#LS_CenterTop .hometeam:after {
+  content: "\f0da";
+  font-family: FontAwesome;
+  padding-left: 3px;
+}
+
+#LS_TopTableHolder .franchiseicon {
+  padding: 5px;
+  max-width: 100%;
+  max-height: 60px;
+}
+
+#body_ajax_ls #marquee_home,
+#body_ajax_ls #marquee_away {
+  display: none
+}
+
+#LS_TopTableHolder .LS_MainScoreboard td {
+  text-align: center;
+  vertical-align: middle
+}
+
+#LS_TopTableHolder #LS_AwayTeamName,
+#LS_TopTableHolder #LS_HomeTeamName {
+  font-size: 12px;
+}
+
+#LS_AwayTeamName,
+#LS_HomeTeamName,
+#LS_CenterTop {
+  width: 33.3%
+}
+
+#body_ajax_ls #other_games {
+  table-layout: fixed
+}
+
+#body_ajax_ls div.ls_other_game {
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 2px 3px;
+  min-width: 150px
+}
+
+#body_ajax_ls td.ls_og_cell {
+  padding-left: 0;
+  width: auto
+}
+
+#body_ajax_ls td.ls_player_stats {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0 !important;
+  position: absolute;
+  bottom: 0
+}
+
+#body_ajax_ls td.ls_player_stats div {
+  font-size: 10px;
+  white-space: nowrap
+}
+
+#body_ajax_ls td div[class^="pfpts"] {
+  cursor: pointer;
+  font-size: 14px
+}
+
+#body_ajax_ls th.ls_player_stats,
+#body_ajax_ls tr.td-totals-row .ls_player_stats {
+  display: none!important
+}
+
+#body_ajax_ls td a[href^="player"] {
+  white-space: nowrap
+}
+
+#body_ajax_ls #other_games {
+  margin: 0!important
+}
+
+#body_ajax_ls #marquee_away .ls_changed,
+#body_ajax_ls #marquee_home .ls_changed {
+  background: none;
+  color: inherit
+}
+
+#body_ajax_ls #roster_away td,
+#body_ajax_ls #roster_home td {
+  padding-bottom: 16px
+}
+
+#body_ajax_ls #roster_away td.td-pad,
+#body_ajax_ls #roster_home td.td-pad {
+  padding-bottom: 0
+}
+
+#body_ajax_ls tr.td-totals-row td {
+  border-bottom: 0;
+  padding-bottom: 0!important;
+  line-height: 30px;
+  font-size: 14px
+}
+
+#body_ajax_ls #last_update.ls_changed {
+  background: none
+}
+
+#body_ajax_ls #roster_away th,
+#body_ajax_ls #roster_home th {
+  text-align: center
+}
+
+#body_ajax_ls #roster_away th:first-of-type,
+#body_ajax_ls #roster_home th:first-of-type {
+  text-align: left;
+  text-indent: 2px
+}
+
+#body_ajax_ls td.td-first-type {
+  position: relative
+}
+
+#body_ajax_ls #roster_away .ls_starters td,
+#body_ajax_ls #roster_home .ls_starters td,
+#body_ajax_ls #roster_away .ls_nonstarters td,
+#body_ajax_ls #roster_home .ls_nonstarters td {
+  text-align: center;
+}
+
+#body_ajax_ls #roster_away .ls_starters td:first-of-type,
+#body_ajax_ls #roster_home .ls_starters td:first-of-type,
+#body_ajax_ls #roster_away .ls_nonstarters td:first-of-type,
+#body_ajax_ls #roster_home .ls_nonstarters td:first-of-type {
+  text-align: left;
+}
+
+#body_ajax_ls .ls-matchup td.td-first-type {
+  width: 190px
+}
+
+#body_ajax_ls .ls-matchup td.ls_game_info,
+#body_ajax_ls th.ls_game_info {
+  width: 105px;
+  min-width: 105px
+}
+
+#body_ajax_ls .ls-matchup td.ls_projections {
+  font-size: 90%;
+}
+
+#body_ajax_ls .mobile-view {
+  padding-right: 5px
+}
+
+#body_ajax_ls .mobile-view:last-child {
+  padding: 0;
+  padding-left: 3px
+}
+
+#body_ajax_ls table#roster_away,
+#body_ajax_ls table#roster_home {
+  margin: 0
+}
+
+#body_ajax_ls #ls_setting_drop input {
+  display: none
+}
+
+#body_ajax_ls #ls_setting_drop input+label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f046";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#body_ajax_ls #ls_setting_drop input:checked+label:before {
+  content: "\f096"
+}
+
+#body_ajax_ls #ls_setting_drop {
+  text-align: left
+}
+
+#body_ajax_ls #ls_setting_drop label {
+  padding-left: 15px;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+#body_ajax_ls #ls_setting_drop a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#body_ajax_ls .ls_append_input {
+  margin-top: 5px;
+  margin-bottom: 10px
+}
+
+#body_ajax_ls #ls_setting_drop .hide_bench {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+#body_ajax_ls #ls_mfl_notes {
+  text-align: center
+}
+
+#body_ajax_ls div.ls_og_selected,
+#body_ajax_ls div#ls_ticker_label {
+  font-weight: normal
+}
+
+#ls_ticker_tab_id {
+  line-height: 30px
+}
+
+#body_ajax_ls .ls_game_info div a {
+  text-decoration: none
+}
+
+#body_ajax_ls table .ls_changed,
+#body_ajax_ls table div.ls_changed,
+#body_ajax_ls table .ls_changed a {
+  background: none;
+  color: inherit;
+  border: none
+}
+
+#body_ajax_ls table div.ls_withposs {
+  border: 0
+}
+
+#body_ajax_ls table div.ls_noposs {
+  border: 0
+}
+
+#body_ajax_ls table div.ls_noposs.ls_changed,
+div.ls_withposs.ls_changed,
+#body_ajax_ls div.ls_redzone {
+  color: inherit;
+  border: 0;
+}
+
+#body_ajax_ls table td.ls_game_info div,
+#body_ajax_ls table td.td-first-type {
+  font-size: 10px;
+  font-style: italic
+}
+
+#body_ajax_ls table td.ls_game_info div a,
+#body_ajax_ls table td.td-first-type a {
+  font-size: 13px;
+  font-style: normal
+}
+
+#body_ajax_ls table td.ls_player_stats div {
+  font-style: normal
+}
+
+#body_ajax_ls #ls_ticker_tab_id[style*="display: inline;"]+div,
+#body_ajax_ls #ls_ticker_tab_id+div {
+  margin-top: 10px
+}
+
+#body_ajax_ls #ls_ticker_tab_id[style*="display: none;"]+div {
+  margin-top: 0
+}
+
+#body_ajax_ls .ls_other_game td.ls_projections {
+  font-size: 80%;
+  width: 26px;
+  padding: 0
+}
+
+.ls_pace_box {
+  text-align: center
+}
+
+.ls_projections {
+  font-style: italic;
+  cursor: default;
+}
+
+th.ls_projections {
+  font-style: normal
+}
+
+#body_ajax_ls td div[class^="oggstat"] {
+  opacity: 0;
+  width: 4px;
+  font-size: 0;
+}
+
+#body_ajax_ls td div[class^="oggstat"] i {
+  font-size: 13px
+}
+
+#other_games td[style="border:none;"]:last-of-type {
+  padding: 0
+}
+
+#body_ajax_ls .ls_box_gameover td.winner_mark div[class^="oggstat"] {
+  opacity: 1;
+}
+
+/* SCORING NUMBERS FORMAT */
+
+#LS_AwayScore,
+#LS_HomeScore {
+  font-size: 30px;
+  padding: 0
+}
+
+#LS_AwayScore span.blank a,
+#LS_HomeScore span.blank a {
+  padding: 4px;
+}
+
+#LS_AwayScore span,
+#LS_HomeScore span {
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  position: relative;
+  width: 1%;
+  display: table-cell;
+  font-weight: 600;
+  font-size: 40px;
+  text-decoration: none;
+  min-width: 30px;
+  line-height: normal;
+  cursor: default;
+  border-width: 1px;
+  border-style: solid
+}
+
+#LS_AwayScore span:before,
+#LS_HomeScore span:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+#LS_AwayScore span:after,
+#LS_HomeScore span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  margin-top: 0px;
+}
+
+#LS_AwayScore span a:after,
+#LS_HomeScore span a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 1
+}
+
+#LS_AwayScore span a:before,
+#LS_HomeScore span a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 1
+}
+
+.MFLMainScoreboard,
+#LS_AwayScore span a:after,
+#LS_HomeScore span a:after,
+#LS_AwayScore span a:before,
+#LS_HomeScore span a:before {
+  border-width: 1px;
+  border-style: solid
+}
+
+#LS_AwayScore div,
+#LS_HomeScore div {
+  border-spacing: 1px;
+  width: 100%
+}
+
+div.ls_team_points {
+  padding: 0!important
+}
+
+@media only screen and (max-width:42.000em) {
+  #LS_AwayScore span.ls_num_1,
+  #LS_HomeScore span.ls_num_1 {
+    display: none
+  }
+}
+
+@media only screen and (max-width:32.000em) {
+  #LS_AwayScore span.ls_num_2,
+  #LS_HomeScore span.ls_num_2 {
+    display: none
+  }
+}
+
+@media only screen and (max-width:28.000em) {
+  #LS_AwayScore span,
+  #LS_HomeScore span {
+    font-size: 24px;
+    min-width: 20px
+  }
+}
+
+
+/***************************************/
+
+
+/* MOBILE MFL SCORING FORMAT */
+
+
+/***************************************/
+
+@media only screen and (max-width:54.25em) {
+  #LS_TopTableHolder #LS_CenterTop,
+  #LS_TopTableHolder .prmin,
+  #LS_TopTableHolder .LS_ScoreboardTitle {
+    display: none
+  }
+  #LS_AwayTeamName,
+  #LS_HomeTeamName {
+    width: 50%
+  }
+}
+
+@media only screen and (min-width:48.1em) {
+  #body_ajax_ls .ls-outer-table {
+    table-layout: fixed
+  }
+  #body_ajax_ls #roster_away caption,
+  #roster_home caption {
+    display: none
+  }
+}
+
+@media only screen and (max-width:410px) {
+  td.ls_projections,
+  th.ls_projections,
+  #ls_pace_wrapper {
+    display: none!important
+  }
+}
+
+
+/***************************************/
+
+
+/* MFL SCORING COLOR CHANGES */
+
+
+/***************************************/
+
+
+/*BOXSCORES TABLE*/
+
+
+/*box score matchups bg color*/
+
+#body_ajax_ls div.ls_other_game {
+  background: #fff;
+  border-color: #ddd
+}
+
+
+/*box score matchups hover bg color and current game bg color*/
+
+#body_ajax_ls div.ls_other_game:hover {
+  background: #eee
+}
+
+#body_ajax_ls div.ls_other_game.current_matchup {
+  background-color: #eee
+}
+
+
+/*box score matchups current game border color*/
+
+#body_ajax_ls div.ls_other_game.current_matchup {}
+
+
+/*text color for points in box score table*/
+
+#body_ajax_ls td div[class^="ogffpts"] {
+  color: #000
+}
+
+
+/*main scoreboard header coloring*/
+
+
+/*color text for P-PMR-PYT*/
+
+#LS_TopTableHolder td.prmin {
+  color: #555;
+  width: 5.55%
+}
+
+
+/*border and bg around td cells*/
+
+#LS_TopTableHolder .LS_MainScoreboard td {
+  border: 1px solid #eee;
+  background: #eee;
+}
+
+#LS_TopTableHolder td.LS_ScoreboardTitle,
+#LS_TopTableHolder #LS_AwayScore,
+#LS_TopTableHolder #LS_HomeScore {
+  background: #fff;
+}
+
+
+/*MAIN TABLES FOR TEAM VS TEAM PLAYERS MATCHUPS*/
+
+
+/*text color for stats of each player*/
+
+#body_ajax_ls td.ls_player_stats div {
+  color: #555
+}
+
+
+/*text color for player total points*/
+
+#body_ajax_ls td div[class^="pfpts"] {
+  color: #000
+}
+
+
+/*add border to bottom of all td cells if desired*/
+
+#body_ajax_ls tr.ls_nonstarters td,
+#body_ajax_ls tr.ls_starters td {
+  border-bottom: 1px solid #ddd
+}
+
+
+/*background and text color for starting and bench total points rows*/
+
+#body_ajax_ls tr.td-totals-row td {
+  background: #fff;
+  color: red
+}
+
+
+/*bg color for games ended and in progress*/
+
+#body_ajax_ls tr.ls_gameis_over {
+  background-color: rgba(255, 20, 20, .1)
+}
+
+#body_ajax_ls tr.ls_gameinprogress {
+  background-color: rgba(20, 255, 20, .1)
+}
+
+
+/*NFL ICONS FOR H2H GAMES AND FRANCHISE ICONS IN BOXSCORE*/
+
+
+/*icon height for franchise logos in boxscore table*/
+
+#body_ajax_ls img.ls_og_icon {
+  max-width: 106px;
+  max-height: 20px
+}
+
+
+/*icon height for NFL logos in table*/
+
+#body_ajax_ls img.ls_nfl_icon {
+  margin: 0 2px;
+  max-width: 20px;
+  max-height: 15px
+}
+
+
+/*SETTINGS CHECKBOXES*/
+
+
+/*settings checkbox color when not checked*/
+
+#body_ajax_ls #ls_setting_drop input+label:before {
+  color: green
+}
+
+
+/*settings checkbox color when checked*/
+
+#body_ajax_ls #ls_setting_drop input:checked+label:before {
+  color: red
+}
+
+
+/*live stats update ticker first td cell bg and text color*/
+
+#body_ajax_ls #ls_ticker_tab_id td:first-of-type {
+  background: red;
+  color: #fff
+}
+
+
+/*live stats update ticker scrolling text td cell bg and text color*/
+
+#body_ajax_ls #ls_ticker_tab_id td:last-of-type {
+  background: #fff;
+  color: #000
+}
+
+
+/*LIVE STATS UPDATES SCROLLING STATS TABLE*/
+
+
+/*border around td cell 1st*/
+
+#body_ajax_ls #ls_ticker_tab_id td:first-of-type {
+  border: 1px solid #ddd
+}
+
+
+/*border around td cell 2nd*/
+
+#body_ajax_ls #ls_ticker_tab_id td:last-of-type {
+  border: 1px solid #ddd;
+  border-left: 0
+}
+
+
+/*color when live scoring ticker data is updated every 40 seconds*/
+
+#body_ajax_ls #last_update.ls_changed {
+  color: green
+}
+
+
+/*add football to players who have and dont have balls*/
+
+#body_ajax_ls .ls_players_table tr.ls_has_ball .td-first-type:after,
+#body_ajax_ls .ls_players_table tr.ls_nothas_ball .td-first-type:after,
+#body_ajax_ls .ls_players_table tr.ls_in_redzone .td-first-type:after {
+  content: '';
+  background-image: url('//www.nitrografixx.com/MFL-Popups/football.svg');
+  background-size: 12px 12px;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 1px
+}
+
+#body_ajax_ls .ls_players_table tr.ls_nothas_ball .td-first-type:after {
+  opacity: .3
+}
+
+#body_ajax_ls .ls_players_table tr.ls_in_redzone .td-first-type:after {
+  background-image: url('//www.nitrografixx.com/MFL-Popups/goal-post.svg')
+}
+
+
+/*boxscore color for F Final game mark and winner mark caret*/
+
+#body_ajax_ls div[class^="oggstat"] {
+  color: red
+}
+
+#body_ajax_ls .ls_box_gameover div[class^="oggstat"],
+#body_ajax_ls #nfl_games span.ls_nfl_box_inprog,
+#body_ajax_ls .nflggstat {
+  color: green
+}
+
+
+/*color of "Final" text in NFL Boxscores table*/
+
+#body_ajax_ls #nfl_games span.ls_nfl_box_over {
+  color: red
+}
+
+
+/*when MFL makes updates to scoreboard - change text color*/
+
+#LS_TopTableHolder #LS_AwayScore .ls_changed,
+#LS_TopTableHolder #LS_HomeScore .ls_changed,
+#body_ajax_ls tr.ls_gameinprogress td div[class^="pfpts"].ls_changed,
+#body_ajax_ls div[id^="fspts"].ls_changed,
+#body_ajax_ls td.prmin div.ls_changed,
+#body_ajax_ls td div[class^="ogffpts"].ls_changed {
+  color: green
+}
+
+
+/*Pace text color in scoreboard and td cell*/
+
+#body_ajax_ls tr.td-totals-row td.ffpts_pace_total {
+  color: #000;
+  font-size: 90%;
+  font-weight: bold
+}
+
+.ls_above_projected {
+  color:#00b200!important
+}
+
+.ls_below_projected {
+  color:#ff5555!important
+}
+
+.ls_at_projected {
+  color:#000!important
+}
+
+.ls_projected {
+  color:#555!important;
+}
+
+
+/* Scoring Numbers Coloring */
+
+#LS_AwayScore span,
+#LS_HomeScore span {
+  border-color: #eee;
+}
+
+#LS_AwayScore span a,
+#LS_HomeScore span a {
+  color: red
+}
+
+#LS_AwayScore span:before,
+#LS_HomeScore span:before {
+  background: #eee
+}
+
+#LS_AwayScore span:after,
+#LS_HomeScore span:after {
+  background: #fff
+}
+
+#LS_AwayScore span a::after,
+#LS_HomeScore span a::after,
+#LS_AwayScore span a::before,
+#LS_HomeScore span a::before {
+  border-color: #eee;
+  background: #fff
+}
+
+/*   COLOR NFL BOX SCORE POPUP    */
+
+.ls-modal {
+  background: rgba(0, 0, 0, .7)
+}
+
+.ls-modal-content {
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1)
+}
+
+.ls-modal-header {
+  color: #000
+}
+
+.ls-modal-header .close {
+  background: red;
+  border-color: red;
+  color: #fff
+}
+
+.ls-modal-header .close:hover,
+.ls-modal-header .close:focus {
+  background: #000;
+  border-color: #000;
+  color: #fff
+}
+
+.ls-modal-body {
+  color: #111
+}
+
+#ls-modal-content .ls-popup-position-li {
+  background: #eee;
+  color: #da3636;
+  color: #000
+}
+
+#ls-modal-content .ls-popup-player-li {
+  border-bottom: 2px solid #eee
+}
+
+#ls-modal-content .ls-popup-stats {
+  color: #555
+}
+
+#ls-modal-content span.ls-popup-points {
+  color: green
+}
+
+.ls-explain-points-name {    
+  color: #000
+}
+
+.ls-explain-points-total {
+  color: green    
+}
+
+.ls-explain-points-total::before {
+  color:#000
+}
+
+.ls-explain-points-li::before {
+  color:red
+}
+
+.ls-popup-status-ns::before, 
+.ls-popup-status-s::before,
+.ls-popup-status-ts::before,
+.ls-popup-status-ir::before {
+  content: "-";
+  color:#000;
+  font-style:normal;
+  padding-right:1px
+}
+
+.ls-popup-status-ns,
+.ls-popup-status-s,
+.ls-popup-status-ts,
+.ls-popup-status-ir {
+  font-style:italic;
+  padding-left:2px
+}
+
+.ls-popup-status-ns {
+  color:red
+}
+.ls-popup-status-s {
+  color:green
+}
+
+.ls-popup-status-ts {
+  color:orange
+}
+
+.ls-popup-status-ir {
+  color:red
+}
+
+
+/***************************************/
+
+
+/* WEEKLY NAV MENUS */
+
+
+/***************************************/
+
+.weekly-navbar {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 10px 0;
+  margin-top: 0;
+  ;
+  height: 30px;
+  line-height: 30px;
+  display: inline-table;
+  text-align: center;
+  width: 100%;
+  font-size: 0
+}
+
+.weekly-navbar .reportnavigationheader {
+  color: #080e25;
+  vertical-align: middle;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal
+}
+
+.weekly-navbar a,
+.weekly-navbar a:link,
+.weekly-navbar a:active,
+.weekly-navbar a:visited,
+.weekly-navbar .currentweek {
+  color: #fff;
+  background: #000;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 24px;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  margin: 0 3px
+}
+
+.weekly-navbar a:hover,
+.weekly-navbar a:link:hover,
+.weekly-navbar a:active:hover,
+.weekly-navbar a:visited:hover {
+  color: #fff;
+  background: red
+}
+
+.weekly-navbar .currentweek {
+  background: red;
+  color: #fff
+}
+
+.weekly-navbar-mobile {
+  display: none;
+  margin: 10px 0;
+  margin-top: 0;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 100%
+}
+
+#hsubmenu .weekly-navbar-mobile {
+  margin: 0
+}
+
+.weekly-navbar .inactive {
+  background: #000!important;
+  color: #fff!important;
+  opacity: .5
+}
+
+@media only screen and (max-width:48.000em) {
+  .weekly-navbar {
+    display: none
+  }
+  .weekly-navbar-mobile {
+    display: inline-table
+  }
+  #body_site_news .weekly-navbar {
+    display: inline-block
+  }
+  #body_site_news .weekly-navbar-mobile {
+    display: none
+  }
+}
+
+@media only screen and (min-width: 48.1em){
+#body_ajax_ls .mobile-view {
+    width: auto!important;
+    float: none;
+}
+}
+
+@media only screen and (max-width: 48em){
+#body_ajax_ls .mobile-view {
+    width: 100%;
+    float: left;
+    margin-top: 0;
+    padding: 0!important;
+}
+}
